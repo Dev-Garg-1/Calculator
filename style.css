@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aqua;
+}
+ 
+.outer-body {
+    background-color: rgb(0, 0, 0);
+    border: 1px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 7px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6c6060;
+    color: white;
+    box-shadow: 0 0 10px rgba(22, 218, 232, 0.957);
+}
+
+.box {
+    width: 50px;
+    height: 60px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.equal {
+    flex: 2;
+}
+
+.input-field {
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
